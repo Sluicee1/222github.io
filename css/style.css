@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: white;
+}
+
+.toup {
+	position: fixed;
+	height: 100%;
+	width: 75px;
+	background: rgb(0,0,0,0.7);
+	display: none;
+}	
+
+.toup:hover {
+	background: rgb(50,49,46,0.7);
+	z-index: 4000;
+	cursor: pointer;
+}
+
+#arrow {
+	position: relative;
+	margin-left: 13px;
+	top: 90%;
+}
+
+body {
+	background: url(../img/bg.png) no-repeat fixed left top;
+	background-size: 100% 100%;
+	font-family: 'Jura', sans-serif;
+	color: white;
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+header {
+	padding-top: 10px;
+	padding-bottom: 55px;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	margin-top: 25px;
+	background-color: rgb(0,0,0,0.7);
+}
+
+.active {
+	text-decoration: underline;
+	color: #00733e;
+}
+
+.logo {
+	font-size: 24pt;
+	margin-left: 245px;
+}
+
+.citata {
+	position: absolute;
+	margin-left: 486px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18pt;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: 75px 75px 75px;
+	grid-column-gap: 50px;
+	margin-left: 700px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18pt;
+}
+
+.title {
+	position: absolute;
+	margin-top: 200px;
+	text-align: center;
+	font-size: 18pt;
+	font-weight: 600;
+	text-decoration: underline;
+	font-style: italic;
+	width: 100%;
+}
+
+.title a:hover {
+	text-decoration: underline;
+}
+
+.page {
+	width: 100%;
+	height: 700px;
+}
+
+.about {
+	display: grid;
+	grid-template-columns: 500px 500px;
+	grid-auto-rows: 200px;
+	grid-row-gap: 150px;
+	grid-column-gap: 100px;
+	justify-content: center;
+}
+
+.wrap {
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18pt;
+	margin: 0 auto;
+	margin-top: 265px;
+	padding-top: 100px;
+	background-color: rgb(0,0,0,0.45);
+}
+
+.menu {
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 150px 150px 150px 150px 150px;
+	grid-column-gap: 50px;
+	grid-auto-rows: 150px;
+	grid-row-gap: 50px;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.eda {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18pt;
+	margin: 0 auto;
+	margin-top: 265px;
+	background-color: rgb(0,0,0,0.6);
+	padding: 10px;
+}
+
+.eda img {
+	width: 100px;
+	height: 75px;
+}
+
+.cost {
+	font-size: 11pt;
+	color: #bababa;
+	font-style: italic;
+}
+
+.gr {
+	font-size: 10pt;
+	color: #767575;
+	font-style: italic;
+}
+
+#totcon {
+	margin-top: -50px;
+}
+
+.info {
+	display: grid;
+	grid-template-columns: 600px 600px;
+	grid-row-gap: 150px;
+	grid-column-gap: 100px;
+	justify-content: center;
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+.continfo {
+	font-size: 18pt;
+	padding: 25px;
+	background-color: rgb(0,0,0,0.45);
+	line-height: 1.5;
+}
+
+.svyaz {
+	width: 750px;
+	padding: 75px;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	background-color: rgb(0,0,0,0.45);
+	font-size: 18pt;
+}
+
+.otzyv {
+	border: none;
+	border-radius: 7%;
+	background: #00733e;
+	padding: 10px;
+	color: white;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.form {
+	position: fixed;
+	display: none;
+	border: 1 solid white;
+	background-color: rgb(0,0,0,1);
+	padding: 30px;
+    top: 50%;
+    left: 50%;
+    margin: -425px 0 0 -230px; 
+    z-index: 6000;
+}
+
+.hq {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 18pt;
+}
+.ind {
+	margin-bottom: 10px;
+}
+form {
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+}
+input {
+	border: 0.5px solid white;;
+	height: 30px;
+	width: 80%;
+	margin-bottom: 35px;
+	color: white;
+	background: black;
+	font-family: 'Jura', sans-serif;
+	padding: 5px;
+}
+
+textarea {
+	resize: none;
+	border: 0.5px solid white;
+	width: 80%;
+	margin-bottom: 35px;
+	background: black;
+	padding: 5px;
+	color: white;
+	font-family: 'Jura', sans-serif;
+}
+
+#submit {
+	background: #00733e;
+	color: white;
+	cursor: pointer;
+}
+
+.line {
+	border: 1px solid white;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+input:focus {
+	outline: 0;
+}
+textarea:focus {
+	outline: 0;
+}
+
+::-webkit-scrollbar-button {
+	width:6px;
+	height:0px
+}
+
+::-webkit-scrollbar-track {
+	background-color:#32312e;
+	box-shadow:0px 0px 3px #000 inset;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #00733e;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+::-webkit-resizer{
+	width:7px;
+	height:0px
+}
+
+::-webkit-scrollbar{
+	width: 11px;
+}
+
