@@ -56,7 +56,7 @@ if (doc_w <= 1400) {
 if (doc_w <= 1080) {
 	$(".toup").remove()
 }
-alert($(document).scrollTop())
+
 $(document).on("scroll", function () {
 	var doc_w = $(document).width()
 	var scrol = $(document).scrollTop()
