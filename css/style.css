@@ -135,7 +135,7 @@ nav {
 	height: 150px;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 18pt;
+	font-size: 14pt;
 	margin: 0 auto;
 	margin-top: 265px;
 	background-color: rgb(0,0,0,0.6);
@@ -269,13 +269,6 @@ input:focus {
 }
 textarea:focus {
 	outline: 0;
-}
-
-footer {
-	background: rgb(0,0,0,0.6);
-	height: 100px;	
-   	margin-top: 550px;
-   	text-align: right;
 }
 
 ::-webkit-scrollbar-button {

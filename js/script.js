@@ -34,7 +34,7 @@ function mainstage() {
 	$("#about").removeClass('active');
 	$("#menu").removeClass('active');
 	$("#contaks").removeClass('active');
-	if ($(document).width() <= 1400) {
+	if ($(document).width() <= 1300) {
 		$("header").animate({
 		marginTop: "25px",
 		paddingBottom: "10px"},
@@ -50,7 +50,7 @@ function mainstage() {
 	$(".toup").fadeOut();
 }
 
-if (doc_w <= 1400) {
+if (doc_w <= 1300) {
 	$(".citata").remove()
 }
 if (doc_w <= 1080) {
